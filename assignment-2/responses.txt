@@ -1,0 +1,9 @@
+1. A directory is a pathway or roadmap for programing file locations or digital file cabinet.
+
+2. VCS or version control system are useful because it allows a web design/developer to create and 
+track new content with a timestamp and added/substracted changes.  You can go back to older version 
+if new development doesn't work or contains errors.  When working as a team, the group has the ability 
+to see who made changes and when they were made.  
+
+3. I enjoy using any medium that involves using my hands or mentially stimulating over problem-solving. 
+Currently, I am working in oil paints, sculpture, and ceramics.  
