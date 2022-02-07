@@ -1,1 +1,3 @@
-This is some text
+An IP is an address of numbers that the computer translator into 1s and 0s.  The IP address is similar to the address, state and zip code lines on a physical letter.  The DNS is the name given by the developer that corresponds to the IP address. 
+A cookie is used as a short term memory to sites in order to process data faster and provide more content.  
+The three components of url are protocol (http://), domain (.com), and paths (/directory/).
