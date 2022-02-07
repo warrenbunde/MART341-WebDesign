@@ -13,3 +13,8 @@ This is so much better now!
 [My Responses](./responses.txt)
 
 ![Screenshot](./images/assignment-3-screenshot.png)
+
+Things I have learned in this class so far.
+1. The difference between a web developer and web designer.
+2. How the internet functions and where I fit into the mix the web.
+3. The origin and history behind the internet.  
