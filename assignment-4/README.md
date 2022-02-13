@@ -5,3 +5,5 @@ browser translates all that information into the rendered website for the user
 to interact with.
 
 I use firefox and Google Chrome
+
+![Screenshot](./images/assignment-4-screenshot.png)
