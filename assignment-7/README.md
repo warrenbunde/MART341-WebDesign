@@ -1,5 +1,5 @@
 Embed your screenshot here with a relative URL
-[Screenshot](./images/assignment-7-screenshot.png)
+![Screenshot](./images/assignment-7-screenshot.png)
 
 Describe any forms you've come across while browsing the web. What purposes do they serve?
 
