@@ -6,4 +6,4 @@ to interact with.
 
 I use firefox and Google Chrome
 
-[Screenshot](./images/assignment-4-screenshot.png)
+![Screenshot](./images/assignment-4-screenshot.png)
