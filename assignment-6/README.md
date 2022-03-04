@@ -1,5 +1,5 @@
 Embed your screenshot here with a relative URL
-[Screenshot](./images/assignment-6-screenshot.png)
+![Screenshot](./images/assignment-6-screenshot.png)
 
 Describe the difference between structural and semantic markup?
 
