@@ -1,0 +1,143 @@
+/* This is the file, "style.css." */
+BODY {
+  background: #F3F1EF;
+	text-indent:0px;
+  width:100%;
+  height:100vh;
+  font-family: 'OpenSans';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  margin: 0;
+}
+
+/*Header*/
+header {
+    position: fixed;
+    background-color:#909393;
+    top: 0px;
+    margin-top: 0;
+    width: 99%;
+    text-align: right;
+    padding-right: 3em;
+    width:100%;
+    max-height: 35px;
+    height:auto;
+}
+
+/* Header Menu */
+.site-name {
+    display: inline-block;
+    float: left;
+    padding: 0.5em 1em;
+    width: 60px;
+}
+#site-name {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* Menu Layout */
+.menu-item {
+    display: inline-block;
+    min-width: 6em;
+    text-align: center;
+    padding: 0.5em 1em;
+    border-radius: 0em 0em 1em 1em;
+    height:20px;
+}
+#menu-item {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Style Links */
+.menu-item a {
+    color: #332D35;
+    text-decoration: none;
+}
+.menu-item:hover {
+    color: #F3F1EF;
+    background-color: #909393;
+}
+
+/* Dropdown Features */
+.dropdown {
+    display: inline-block;
+    min-width: 6em;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style Dropdown */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    min-width: 6em;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: white;
+    background-color: #9C9FA0;
+}
+.dropdown:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+#foundation:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+
+/*Site Content*/
+.siteTitle{
+  position: absolute;
+  resize: both;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.galleryCloseUp{
+  position:absolute;
+  resize: both;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 25%;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #7D777E;
+    height: 3em;
+    padding-top: 1em;
+}
+#footer-link {
+    height: 1.5em;
+}
