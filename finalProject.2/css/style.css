@@ -1,0 +1,614 @@
+/* This is the file, "style.css." */
+BODY {
+  margin:0;
+  padding:0;
+  background: #F3F1EF;
+	text-indent:0px;
+  width:100vw;
+  height:100vh;
+  font-family: 'OpenSans';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  margin: 0;
+}
+
+/*Header*/
+header {
+    position: fixed;
+    background-color:#909393;
+    top: 0px;
+    margin-top: 0;
+    text-align: right;
+    padding-right: 3em;
+    width:100%;
+    max-height: 3.4375em;
+    height:auto;
+    z-index: 2;
+}
+
+/* Header Menu */
+.site-name {
+    display: inline-block;
+    float: left;
+    padding: 0.5em 3em;
+    width: 3.75em;
+}
+#site-name {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* Menu Layout */
+.menu-item {
+    display: inline-block;
+    min-width: 6em;
+    text-align: center;
+    padding: .8em 1em;
+    border-radius: 0em 0em 1em 1em;
+    height:1.75em;
+}
+#menu-item {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Style Links */
+.menu-item a {
+    color: #332D35;
+    text-decoration: none;
+}
+.menu-item:hover {
+    color: #F3F1EF;
+    background-color: #909393;
+}
+a:link {
+  text-decoration: none;
+}
+
+/* Dropdown Features */
+.dropdown {
+    display: inline-block;
+    min-width: 6em;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style Dropdown */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    min-width: 6em;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: white;
+    background-color: #a32d3d;
+}
+.dropdown:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+#foundation:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+
+/*Site Content*/
+.siteTitle{
+  position: absolute;
+  resize: both;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#siteLogo{
+  max-width: 99%;
+  height: auto;
+  width: auto;
+  transform: scale(.9);
+}
+#homeImage{
+  max-width: 80%;
+  height: auto;
+  width: auto;
+}
+
+/*Gallery Page*/
+.closeUp{
+  position:absolute;
+  resize: both;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.gallry {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-left: 25%;
+}
+.container{
+  position: relative;
+  margin-top: 3.4375em;
+  margin-left: 10%;
+  margin-right: 0em;
+  padding-left: 2%;
+  padding-right: 2.75em;
+  height: 100vh;
+  width: 80%;
+  align-items: center;
+}
+.container .box{
+  position: relative;
+  width: calc(25em - 1.875em);
+  height: calc(18.75em - 1.875em);
+  background: #909393;
+  float: left;
+  margin: 1em;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0.625em;
+}
+.container .box .icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #915241;
+  transition: 0.5s;
+  z-index: 1;
+}
+.container .box:hover .icon{
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50% 50%;
+}
+.container .box .icon .material-symbols-outlined{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  transition: 0.5s;
+  color: #fff;
+}
+.container .box:hover .icon .material-symbols-outlined{
+  font-size: 40px;
+}
+.container .box .icon .pitcherIcon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(.1);
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  color: #fff;
+}
+.container .box .content{
+  position: absolute;
+  top: 100%;
+  height: calc(100% - 100px);
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+}
+.container .box:hover .content{
+  top: 100px;
+  opacity: 1;
+}
+.container .box .content h3{
+  margin-top: 0 0 10px;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+/*Portfolio Sketches Layout*/
+.galleryContainer{
+  margin-top: 3.4375em;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 150vh;
+  width: 92%;
+  align-items: center;
+}
+.galleryTitle{
+  width: 92%;
+  margin: 2%;
+  padding: 2%;
+
+/*Add in additional Font and structure*/
+
+}
+.gallery {
+  height: 140vh;
+  display: grid;
+  grid
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 6.5vw);
+  grid-gap: 1rem;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  overflow: hidden;
+}
+
+/*Sketchbook Page*/
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.gallery__item--3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+.gallery__item--4 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 9;
+}
+.gallery__item--5 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 9;
+}
+.gallery__item--6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.gallery__item--7 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+/*Painting Page*/
+.gallery__item--8 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 9;
+}
+.gallery__item--9 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery__item--10 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 12;
+}
+.gallery__item--11 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 9;
+  grid-row-end: 12;
+}
+/*Sculptures Page*/
+.gallery__item--12 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.gallery__item--13 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 11;
+}
+.gallery__item--14 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+.gallery__item--15 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+.gallery__item--16 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+.gallery__item--17 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+/*Prints Page*/
+.gallery__item--18 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.gallery__item--19 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 10;
+}
+.gallery__item--20 {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.gallery__item--21 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 14;
+}
+.gallery__item--22 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 10;
+  grid-row-end: 14;
+}
+
+/*Ceramics Page*/
+.gallery__item--23 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.gallery__item--24 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.gallery__item--25 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.gallery__item--26 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 8;
+}
+.gallery__item--27 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 8;
+}
+.gallery__item--28 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 8;
+}
+.gallery__item--29 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 11;
+}
+.gallery__item--30 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 8;
+  grid-row-end: 11;
+}
+.gallery__item--31 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 8;
+  grid-row-end: 11;
+}
+
+/*Galleru Links*/
+.content a:visited {
+ color:white;
+ text-decoration:none;
+}
+.content a:link    {
+ color:white;
+ text-decoration:none;
+}
+.content a:hover   {
+	color:black;
+  text-decoration:none;
+}
+.content a:active  {
+	color:rgb(0,102,153);
+  text-decoration:none;
+}
+
+/*About Page Layout*/
+.aboutLayout{
+  position: relative;
+  margin-top: 3.4375em;
+  margin-left: 5em;
+  margin-right: 0em;
+  padding-left: 2.75em;
+  padding-right: 2.75em;
+  width: 80%;
+  height: 100vh;
+
+}
+/*About Content*/
+.aboutcontainer{
+  position: relative;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 0em;
+  padding-left: 2.75em;
+  padding-right: 2.75em;
+  width: 80%;
+}
+
+.aboutcontainer #artistProtrait{
+  width: 20em;
+  position: relative;
+  float: left;
+  padding-left: 15%;
+}
+.aboutcontainer .selfPortrait{
+  margin-top: 18em;
+  padding-left: 1em;
+  float: left;
+  display: block;
+  text-align: left;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  word-spacing: -1.2px;
+  font-variant: small-caps;
+  text-transform: lowercase;
+
+}
+.aboutLayout .artistStatement{
+  position: absolute;
+  top: 30em;
+  left: 2em;
+  float: left;
+}
+.aboutLayout .artistBio{
+  position: absolute;
+  top: 50em;
+  left: 2em;
+  float: left;
+}
+h1{
+  float: left;
+  text-align: left;
+  width: 100%;
+
+}
+.statement{
+  float: left;
+  text-align: left;
+  text-indent: 2em;
+  width: 100%;
+  margin-bottom: 5em;
+}
+/*contact Page Layout*/
+portrait{
+  width: 20em;
+  position: relative;
+  float: left;
+  padding-left: 15%;
+}
+
+
+/*Menu HTML Page Link*/
+.menuCloseLink{
+  float: right;
+  padding-top: 15px;
+}
+.closeLink{
+  padding-right: 25px;
+  padding-top: 50px;
+}
+.menuLink{
+  display: inline;
+  text-align: center;
+}
+.navLink{
+  text-decoration: none;
+}
+.layout{
+  margin-bottom: 25px;
+  font-family: 'Cinzel', serif;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+/*Site Construction*/
+.iconConstruction {
+  margin-top: 5em;
+  transform: scale(4);
+}
+/* Footer */
+footer {
+    width: 99%;
+    background-color: #7D777E;
+    height: 3em;
+    padding-top: 1em;
+    position: fixed;
+    bottom: 0;
+    opacity: 0;
+    z-index: 8;
+}
+footer:hover {
+    opacity: 1;
+}
+#footer-link {
+    height: 1.5em;
+}
+.containerFooter{
+  width: 92%;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  height: 1.5em;
+}
+#iconLinks{
+  height: 2em;
+}
