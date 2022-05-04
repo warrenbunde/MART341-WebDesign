@@ -254,7 +254,7 @@ a:link {
   display: grid;
   grid
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 6.5vw);
+  grid-template-rows: repeat(12, 6.5vw);
   grid-gap: 1rem;
 }
 .gallery__img {
