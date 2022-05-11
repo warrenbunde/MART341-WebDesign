@@ -228,6 +228,7 @@ a:link {
   padding: 0;
   color: #fff;
   font-size: 24px;
+  text-align: center;
 }
 
 /*Portfolio Sketches Layout*/
@@ -460,6 +461,10 @@ a:link {
 }
 
 /*Galleru Links*/
+.icon a:hover {
+  color:black;
+  text-decoration:none;
+}
 .content a:visited {
  color:white;
  text-decoration:none;
@@ -579,6 +584,36 @@ portrait{
   text-decoration: none;
   letter-spacing: .5px;
 }
+
+/*Art Education*/
+h3{
+  float: left;
+  width:20%;
+}
+h3 a:visited {
+ color:gray;
+ text-decoration:none;
+}
+h3 a:link    {
+ color:black;
+ text-decoration:none;
+}
+h3 a:hover   {
+	color:black;
+  text-decoration:none;
+}
+h3 a:active  {
+	color:rgb(0,102,153);
+  text-decoration:none;
+}
+ul{
+  list-style-type: none;
+  text-align: left;
+}
+p{
+  text-align: left;
+}
+
 /*Site Construction*/
 .iconConstruction {
   margin-top: 5em;
